@@ -24,5 +24,113 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <div class="container">
+  <h2>Experimentation w/ a Basic Table</h2>
+  <p>Table Experiment w/ light padding and horizontal dividers</p>            
+  <table class="table">
+    <thead>
+      <tr class= "thead-dark">
+        <th>Class</th>
+        <th>Period</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-danger">
+        <td>English</td>
+        <td>1</td>
+        <td>Morning</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Spanish</td>
+        <td>2</td>
+        <td>Morning</td>
+      </tr>
+      <tr class="table-success">
+        <td>SEP</td>
+        <td>3</td>
+        <td>Morning</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>OK, SO IT WORKS YAYYYY!</p> 
+</div>
+
+<div class="container">
+  <h2> Meanwhile at the dental office...</h2>
+  <p>Testing type text and type password:</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="usr">Okay Sir, please fill out your name:</label>
+      <input type="text" class="form-control" id="usr" name="username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Put your socials here:</label>
+      <input type="password" class="form-control" id="pwd" name="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Don't ye dur press dis buttun</button>
+  </form>
+</div>
+
+<div class="container">
+*/form control/*
+  <h2>So you pressed it huh?</h2>
+  <p>Make yourself confortable, cuz you'll be here for a while...</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="comment">Q1: R ye un Ogre? Have u seen dun-kay? </label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+</div>
+
+<div class="container">
+  */form control checkboxes/*
+  <h2>So u have seen dun-key, haven't yuh?</h2>
+  <p>Where did you see him last?</p>
+  <form action="/action_page.php">
+    <div class="form-check">
+      <label class="form-check-label" for="check1">
+        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked> Bee un deh treez
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="check2">
+        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something"> Fartun in de gur- den
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" disabled>I haven't seen him.(Don't even try, we know ur lying)
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">You may proceed</button>
+  </form>
+</div>
+
+<div class="container">
+  
+  */Form control/*
+  <h2>Last interegation set:</h2>
+  <p>Answer honestly, and we'll let you go on with your appointment-</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="sel1">Are u really here for a check-up?</label>
+      <select class="form-control" id="sel1" name="sellist1">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+      <br>
+      <label for="sel2">Where are you from? (select all that apply):</label>
+      <select multiple class="form-control" id="sel2" name="sellist2">
+        <option>The Nutherlunds</option>
+        <option>Scundunaviee-ah</option>
+        <option>The yelluw brick rod</option>
+        <option>May God be my wheat-ness</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">You may proceed for you have been truthful-</button>
+  </form>
+</div>
+
   </body>
 </html>
